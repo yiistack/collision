@@ -12,7 +12,8 @@
         "source": "https://github.com/yiistack/collision"
     },
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "nunomaduro/collision": "^5.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
