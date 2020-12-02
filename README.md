@@ -25,7 +25,7 @@ The package ...
 The package could be installed with composer:
 
 ```
-composer require yiisoft/collision --prefer-dist
+composer require yiistack/collision --prefer-dist
 ```
 
 ## General usage
