@@ -1,8 +1,8 @@
 <?php
 
+declare(strict_types=1);
 
 namespace Yiistack\Collision;
-
 
 use NunoMaduro\Collision\Provider;
 use Yiisoft\Di\Container;

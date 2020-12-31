@@ -4,15 +4,10 @@ declare(strict_types=1);
 
 namespace Yiistack\Collision\Application;
 
-use Psr\EventDispatcher\EventDispatcherInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\StyleInterface;
-use Symfony\Contracts\EventDispatcher\EventDispatcherInterface as SymfonyEventDispatcherInterface;
 use Throwable;
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
-use Yiisoft\Yii\Console\Event\ApplicationShutdown;
-use Yiisoft\Yii\Console\Event\ApplicationStartup;
 
 final class Application extends \Yiisoft\Yii\Console\Application
 {
