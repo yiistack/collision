@@ -14,7 +14,7 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 use Yiisoft\Yii\Console\Event\ApplicationShutdown;
 use Yiisoft\Yii\Console\Event\ApplicationStartup;
 
-class Application extends \Yiisoft\Yii\Console\Application
+final class Application extends \Yiisoft\Yii\Console\Application
 {
     protected function doRenderThrowable(Throwable $e, OutputInterface $output): void
     {
