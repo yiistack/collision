@@ -13,6 +13,7 @@
     },
     "require": {
         "php": "^7.4|^8.0",
+        "yiisoft/yii-console": "3.0.x-dev",
         "nunomaduro/collision": "^5.1"
     },
     "require-dev": {
@@ -34,6 +35,9 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
+        },
+        "config-plugin": {
+            "providers-console": "config/providers-console.php"
         }
     },
     "scripts": {
