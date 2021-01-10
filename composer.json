@@ -13,6 +13,7 @@
     },
     "require": {
         "php": "^7.4|^8.0",
+        "yiisoft/di": "3.0.x-dev",
         "yiisoft/yii-console": "3.0.x-dev",
         "nunomaduro/collision": "^5.1"
     },
@@ -38,6 +39,7 @@
         },
         "config-plugin": {
             "console": "config/console.php",
+            "events-console": "config/events-console.php",
             "providers-console": "config/providers-console.php"
         }
     },

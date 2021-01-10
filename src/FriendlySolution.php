@@ -7,7 +7,7 @@ namespace Yiistack\Collision;
 use Facade\IgnitionContracts\Solution;
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
-class FriendlySolution implements Solution
+final class FriendlySolution implements Solution
 {
     private FriendlyExceptionInterface $friendlyException;
 

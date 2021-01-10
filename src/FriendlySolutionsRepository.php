@@ -8,7 +8,7 @@ use NunoMaduro\Collision\Contracts\SolutionsRepository;
 use Throwable;
 use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
-class FriendlySolutionsRepository implements SolutionsRepository
+final class FriendlySolutionsRepository implements SolutionsRepository
 {
 
     /**
