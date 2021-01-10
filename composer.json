@@ -11,17 +11,20 @@
         "issues": "https://github.com/yiistack/collision/issues?state=open",
         "source": "https://github.com/yiistack/collision"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0",
-        "yiisoft/di": "3.0.x-dev",
-        "yiisoft/yii-console": "3.0.x-dev",
-        "nunomaduro/collision": "^5.1"
+        "nunomaduro/collision": "^5.1",
+        "yiisoft/di": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
         "roave/infection-static-analysis-plugin": "^1.5",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^4.2"
+        "vimeo/psalm": "^4.2",
+        "yiisoft/yii-event": "dev-master",
+        "yiisoft/yii-console": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -38,7 +41,6 @@
             "dev-master": "1.0.x-dev"
         },
         "config-plugin": {
-            "console": "config/console.php",
             "events-console": "config/events-console.php",
             "providers-console": "config/providers-console.php"
         }
