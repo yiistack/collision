@@ -3,6 +3,7 @@
     "type": "library",
     "description": "collision",
     "keywords": [
+        "yii",
         "collision"
     ],
     "homepage": "https://github.com/yiistack/",

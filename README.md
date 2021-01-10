@@ -2,7 +2,7 @@
     <a href="https://github.com/yiistack" target="_blank">
         <img src="https://github.com/yiistack.png" height="100px">
     </a>
-    <h1 align="center">Yii Stack collision</h1>
+    <h1 align="center">Yii Stack Collision</h1>
     <br>
 </p>
 
@@ -14,7 +14,7 @@
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiistack%2Fcollision%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiistack/collision/master)
 [![static analysis](https://github.com/yiistack/collision/workflows/static%20analysis/badge.svg)](https://github.com/yiistack/collision/actions?query=workflow%3A%22static+analysis%22)
 
-The package ...
+The package provides implementation for Yii 3.0
 
 ## Requirements
 

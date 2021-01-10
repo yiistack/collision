@@ -23,7 +23,7 @@ final class FriendlySolution implements Solution
 
     public function getSolutionDescription(): string
     {
-        return $this->friendlyException->getSolution();
+        return $this->friendlyException->getSolution() ?? '';
     }
 
     public function getDocumentationLinks(): array
