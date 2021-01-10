@@ -37,6 +37,7 @@
             "dev-master": "1.0.x-dev"
         },
         "config-plugin": {
+            "console": "config/console.php",
             "providers-console": "config/providers-console.php"
         }
     },
