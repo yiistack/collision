@@ -8,7 +8,6 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 final class TestSolutionException extends \Exception implements FriendlyExceptionInterface
 {
-
     /**
      * @inheritDoc
      */

@@ -12,12 +12,8 @@ use Yiisoft\Di\Support\ServiceProvider;
 final class CollisionServiceProvider extends ServiceProvider
 {
     /**
-     * @param Container $container
-     *
      * @psalm-suppress InaccessibleMethod
      * @psalm-suppress InternalClass
-     *
-     * @throws \Yiisoft\Factory\Exceptions\InvalidConfigException
      */
     public function register(Container $container): void
     {

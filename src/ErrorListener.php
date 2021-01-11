@@ -19,8 +19,6 @@ final class ErrorListener
     }
 
     /**
-     * @param ConsoleErrorEvent $event
-     *
      * @psalm-suppress InternalMethod
      */
     public function handle(ConsoleErrorEvent $event): void
