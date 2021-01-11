@@ -19,4 +19,13 @@ class FriendlySolutionsRepositoryTest extends TestCase
         $this->assertNotEmpty($solutions);
         $this->assertEquals('Test solution', array_shift($solutions)->getSolutionDescription());
     }
+
+    public function testGetFromThrowableWithNonFriendlyException(): void
+    {
+        $repository = new FriendlySolutionsRepository();
+
+        $solutions = $repository->getFromThrowable(new \RuntimeException());
+
+        $this->assertEmpty($solutions);
+    }
 }
