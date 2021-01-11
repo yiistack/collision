@@ -16,5 +16,6 @@ final class FriendlySolutionTest extends TestCase
         
         $this->assertEquals('Test exception', $solution->getSolutionTitle());
         $this->assertEquals('Test solution', $solution->getSolutionDescription());
+        $this->assertEquals([], $solution->getDocumentationLinks());
 }
 }
