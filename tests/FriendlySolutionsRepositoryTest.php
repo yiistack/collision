@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yiistack\Collision;
+namespace Yiistack\Collision\Tests;
 
 use PHPUnit\Framework\TestCase;
+use Yiistack\Collision\FriendlySolutionsRepository;
 use Yiistack\Collision\Tests\Support\TestSolutionException;
 
 class FriendlySolutionsRepositoryTest extends TestCase
