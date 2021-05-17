@@ -24,7 +24,7 @@
         "roave/infection-static-analysis-plugin": "^1.5",
         "spatie/phpunit-watcher": "^1.23",
         "vimeo/psalm": "^4.2",
-        "yiisoft/yii-event": "dev-master",
+        "yiisoft/yii-event": "^1.0.0",
         "yiisoft/yii-console": "dev-master"
     },
     "autoload": {
