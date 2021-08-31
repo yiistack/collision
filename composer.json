@@ -42,8 +42,9 @@
             "dev-master": "1.0.x-dev"
         },
         "config-plugin": {
+            "console": "config/console.php",
             "events-console": "config/events-console.php",
-            "console": "config/console.php"
+            "params": "config/params.php"
         }
     },
     "scripts": {
