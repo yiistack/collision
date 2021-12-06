@@ -15,7 +15,7 @@
 [![static analysis](https://github.com/yiistack/collision/workflows/static%20analysis/badge.svg)](https://github.com/yiistack/collision/actions?query=workflow%3A%22static+analysis%22)
 [![type-coverage](https://shepherd.dev/github/yiistack/collision/coverage.svg)](https://shepherd.dev/github/yiistack/collision)
 
-The package provides an implementation [Collision](https://github.com/nunomaduro/collision) for Yii 3.0
+The package provides [Collision](https://github.com/nunomaduro/collision) adapter for Yii 3.0
 
 ## Requirements
 
@@ -44,7 +44,7 @@ The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
 The package tests are checked with [Infection](https://infection.github.io/) mutation framework. To run it:
 
 ```shell
-./vendor/bin/infection
+./vendor/bin/roave-infection-static-analysis-plugin
 ```
 
 ### Static analysis
