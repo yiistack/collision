@@ -13,7 +13,7 @@
         "issues": "https://github.com/yiistack/collision/issues?state=open",
         "source": "https://github.com/yiistack/collision"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0",
