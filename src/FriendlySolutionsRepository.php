@@ -10,7 +10,6 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 final class FriendlySolutionsRepository implements SolutionsRepository
 {
-
     /**
      * @inheritDoc
      */
