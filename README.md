@@ -13,6 +13,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yiistack/collision/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yiistack/collision/?branch=master)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiistack%2Fcollision%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiistack/collision/master)
 [![static analysis](https://github.com/yiistack/collision/workflows/static%20analysis/badge.svg)](https://github.com/yiistack/collision/actions?query=workflow%3A%22static+analysis%22)
+[![type-coverage](https://shepherd.dev/github/yiistack/collision/coverage.svg)](https://shepherd.dev/github/yiistack/collision)
 
 The package provides an implementation [Collision](https://github.com/nunomaduro/collision) for Yii 3.0
 
