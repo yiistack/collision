@@ -19,7 +19,7 @@ The package provides [Collision](https://github.com/nunomaduro/collision) adapte
 
 ## Requirements
 
-- PHP 7.4 or higher.
+- PHP 8.0 or higher.
 
 ## Installation
 
@@ -30,6 +30,15 @@ composer require yiistack/collision --prefer-dist
 ```
 
 ## General usage
+
+Add these definitions to your console app:
+
+```php
+return [
+    SolutionsRepository::class => FriendlySolutionsRepository::class,
+    WriterContract::class => Writer::class,
+];
+```
 
 ### Unit testing
 

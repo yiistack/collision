@@ -10,7 +10,7 @@ use Yiistack\Collision\FriendlySolutionsRepository;
 /**
  * @var array $params
  */
-if ((bool)$params['yiistack/collision']['enabled'] === false) {
+if ((bool)($params['yiistack/collision']['enabled'] ?? true) === false) {
     return [];
 }
 return [

@@ -1,8 +1,8 @@
 # Yii Collision Change Log
 
-## 1.0.1 under development
+## 1.1.0 under development
 
-- no changes in this release.
+- Chg: Raise up PHP version requirement to 8.0 and dependencies
 
 ## 1.0.0 December 06, 2021
 
