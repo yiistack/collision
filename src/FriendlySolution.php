@@ -9,11 +9,9 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 final class FriendlySolution implements Solution
 {
-    private FriendlyExceptionInterface $friendlyException;
 
-    public function __construct(FriendlyExceptionInterface $friendlyException)
+    public function __construct(private FriendlyExceptionInterface $friendlyException)
     {
-        $this->friendlyException = $friendlyException;
     }
 
     public function getSolutionTitle(): string
