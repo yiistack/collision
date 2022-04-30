@@ -1,6 +1,6 @@
 # Yii Collision Change Log
 
-## 1.1.0 under development
+## 1.1.0 April 30, 2022
 
 - Chg: Raise up PHP version requirement to 8.0 and dependencies
 
