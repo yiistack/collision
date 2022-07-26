@@ -9,7 +9,6 @@ use Yiisoft\FriendlyException\FriendlyExceptionInterface;
 
 final class FriendlySolution implements Solution
 {
-
     public function __construct(private FriendlyExceptionInterface $friendlyException)
     {
     }
