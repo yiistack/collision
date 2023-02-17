@@ -26,7 +26,7 @@
         "spatie/phpunit-watcher": "^1.23",
         "vimeo/psalm": "^4.22",
         "yiisoft/yii-event": "^1.0",
-        "yiisoft/yii-console": "^1.0"
+        "yiisoft/yii-console": "^2.0"
     },
     "autoload": {
         "psr-4": {
